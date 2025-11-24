@@ -7,8 +7,8 @@ import json
 
 ESP32_STREAM = "http://10.29.25.251:81/stream"  # ganti sesuai IP ESP32
 MODEL_PATH = "yolo.pt"
-POST_RESULTS = False  # True jika ingin POST JSON ke backend
-POST_URL = "http://localhost:8000/report"  # endpoint untuk terima hasil
+POST_RESULTS = False 
+POST_URL = "http://localhost:8000/report" 
 
 def send_results_to_server(payload):
     try:

@@ -8,14 +8,14 @@ import paho.mqtt.client as mqtt
 
 # ---------- CONFIG ----------
 ESP32_STREAM = "http://10.29.25.251/stream"     # ganti sesuai IP ESP32
-MODEL_PATH = "yolo.pt"                             # model YOLO
+MODEL_PATH = "yolo.pt"                            
 MQTT_BROKER = "ad9fd300499b4d29ae0706343566b619.s1.eu.hivemq.cloud"
 MQTT_PORT = 8883
 MQTT_USER = "tiarts"
 MQTT_PASS = "Lalilulelo1."
 TOPIC_DETECTED = "prs/detected"
 TOPIC_SENSORS = "prs/sensors"
-LARAVEL_API = "http://192.168.0.8:8000/api/reports"  # ganti URL Laravel
+LARAVEL_API = "http://192.168.0.8:8000/api/reports"  
 WAIT_SENSOR_SECONDS = 6
 # ----------------------------
 
