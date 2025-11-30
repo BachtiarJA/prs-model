@@ -5,7 +5,7 @@ import time
 import requests
 import json
 
-ESP32_STREAM = "http://10.29.25.251:81/stream"  # ganti sesuai IP ESP32
+ESP32_STREAM = "http://192.168.0.21:81/stream"  # ganti sesuai IP ESP32
 MODEL_PATH = "yolo.pt"
 POST_RESULTS = False 
 POST_URL = "http://localhost:8000/report" 
